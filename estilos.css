@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(184, 74, 30, 0.707);
+  font-family: "Questrial", sans-serif;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  background-color: rgba(245, 245, 245, 0.629);
+}
+
+.nav-link {
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  margin-left: 3rem;
+}
+
+.title {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.span1 {
+  font-family: "Roboto Slab", serif;
+  color: rgba(184, 73, 30, 0.529);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.h1 {
+  font-family: "Roboto Slab", serif;
+  margin: 2rem 0;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.casas {
+  border: 2px solid rgba(245, 245, 245, 0.629);
+  width: 640px;
+  height: 200px;
+}
+
+.section p {
+  font-weight: bold;
+}
+
+.psec {
+  text-align: justify;
+  font-weight: 700;
+  margin: 5% 10%;
+}
+
+.logoimg {
+  height: 25px;
+  width: 25px;
+  margin: 0 5px;
+}
+
+.sabermas .btn {
+  background-color: rgba(245, 245, 245, 0.629);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.sabermas .btn a {
+  color: rgba(184, 74, 30, 0.707);
+  letter-spacing: 2px;
+}
+
+.footer1 {
+  margin-top: 12rem;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.629);
+  margin-top: auto;
+}
+footer p {
+  text-align: center;
+  font-weight: bold;
+  padding: 1px;
+  margin: 4px;
+}
+
+.redes {
+  text-align: center;
+  padding: 1px;
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+.redes a {
+  padding: 1px;
+  color: rgba(184, 74, 30, 0.707);
+}
+
+/*propiedades*/
+ul {
+  padding-left: 0 !important;
+}
+
+.lists li {
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btnprop {
+  color: rgba(184, 74, 30, 0.707);
+  background-color: rgba(245, 245, 245, 0.629);
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.whatsapp {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(6, 180, 70);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 25px;
+  border-radius: 30%;
+  box-shadow: 0 0 5px black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.whatsapp i {
+  line-height: 40px;
+}
+
+/*Servicios*/
+.aqui {
+  color: rgba(245, 245, 245, 0.629);
+  background-color: rgba(184, 74, 30, 0.707);
+}
+
+.aqui:hover {
+  color: rgba(184, 74, 30, 0.707);
+  background-color: rgba(245, 245, 245, 0.629);
+}
+
+.card {
+  background-color: rgba(245, 245, 245, 0.629);
+}
+
+/*contacto*/
+.form-control {
+  background-color: rgba(245, 245, 245, 0.629);
+}
+
+.form-select {
+  background-color: rgba(245, 245, 245, 0.629);
+}/*# sourceMappingURL=estilos.css.map */
