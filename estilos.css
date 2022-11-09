@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.whatsapp {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(6, 180, 70);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 25px;
+  border-radius: 30%;
+  box-shadow: 0 0 5px black;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.whatsapp i {
+  line-height: 40px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -126,24 +144,6 @@ ul {
   padding: 6px;
   border-radius: 5px;
   font-weight: bold;
-}
-
-.whatsapp {
-  height: 40px;
-  width: 40px;
-  background-color: rgb(6, 180, 70);
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  font-size: 25px;
-  border-radius: 30%;
-  box-shadow: 0 0 5px black;
-  color: whitesmoke;
-  text-align: center;
-}
-
-.whatsapp i {
-  line-height: 40px;
 }
 
 /*Servicios*/
